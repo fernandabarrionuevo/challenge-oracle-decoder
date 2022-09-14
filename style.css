@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 375;
+}
+
+body{
+    background: #F3F5FC;
+}
+
+header{
+    width: 375px;
+    height: 933px;
+    height: 96px;
+    margin: 0px auto 0px;
+}
+
+.logo{
+    padding: 24px 0 24px 16px;
+}
+
+main{
+    width: 375px;
+    height: 933px;
+    margin: 0px auto 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container-input-texto{
+    text-align: center;
+    margin: 80px auto 0;
+}
+
+.input-texto{
+    width: 343px;
+    height: 299px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    background: #F3F5FC;
+    border-style: none;
+    padding: 0;
+}
+
+.input-texto:focus{
+    outline: none;
+    
+}
+
+.container-advertencia{
+    width: 229px;
+    height: 18px;
+    display: inline-flex;
+    margin: 16px;
+    justify-content: space-between;
+}
+
+.vector{
+    width: 16px;
+    height: 16px;
+}
+
+.container-advertencia p{
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.container-botones{
+    width: 343px;
+    height: 158px;
+    margin: 0px auto;
+}
+
+.container-botones button{
+    width: 343px;
+    height: 67px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.encriptar{
+    margin: 0 0 22px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #0A3871;
+    border-radius: 24px;
+    border-style: none;
+}
+
+.desencriptar{
+    font-size: 16px;
+    color: #0A3871;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border-color: #0A3871;
+}
+
+/* Sección derecha */
+
+.container-derecha{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-mensaje{
+    width: 327px;
+    margin: 64px auto 0;
+    display: block;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.container-muneco{
+    display: none;
+}
+
+.sin-mensaje{
+    color:#343A40;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 32px 32px 0px;
+}
+
+.mensaje{
+    width: 279px;
+    height: 48px;
+    margin: 16px auto 32px;
+    color: #495057;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border-style: none;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.container-copiar{
+    padding-bottom: 20px;
+}
+
+.copiar{
+    width: 279px;
+    height: 67px;
+    margin: 0 auto;
+    font-size: 16px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+    border-style: 1px solid ;
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px){
+
+    header{
+        width: 768px;
+    }
+
+    main{
+        width: 768px;
+        height: 1174px;
+    }
+
+    .input-texto{
+        width: 688px;
+        text-align: left;
+    }
+
+    .container-advertencia{
+        margin-left: 40px;
+    }
+
+    .container-botones{
+        width: 680px;
+        height: 67px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+    }
+    
+    .container-botones button{
+        width: 322px;
+        margin: 0;
+    }
+
+    .container-mensaje{
+        width: 688px;
+        margin: 64px 40px 40px 40px;
+    }
+
+    .mensaje{
+        width: 624px;
+        height: 24px;
+    }
+
+    .copiar{
+        width: 624px;
+    }
+}
+
+
+@media only screen and (min-width: 1284px){
+
+    main{
+        width: 1284px;
+    }
+
+    header{
+        width: 844px;
+        height: 88px;
+        margin: 0;
+    }
+
+    .logo{
+        padding: 40px 0 0 84px;
+    }
+
+    body{
+        background-size: unset;
+    }
+
+    main{
+        width: 1284px;
+        height: 700px;
+        margin: 0 auto 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-izquierda{
+        width: 680px;
+        height: 784px;
+        margin: 80px 80px 0 240px;
+    }
+     
+    .container-input-texto{
+        height: 667px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .input-texto{
+        width: 577px;
+        height: 577px;;
+    }
+
+    .container-advertencia{
+        margin-bottom: 16pxerdfg;
+    }
+
+    .container-botones{
+        width: 680px;
+        height: 67px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-botones button{
+        width: 328px;
+        margin: 0;
+    }
+
+    .encriptar{
+        margin-right: 10px;
+    }
+
+    .container-derecha{
+        padding: 0 40px 40px;
+    }
+
+    .container-mensaje{
+        width: 400px;
+        height: 944px;
+        margin: 0 auto 0;
+    }
+
+    .mensaje{
+        width: 279px;
+        height: 48px;
+    }
+
+    .container-muneco{
+        width: 336px;
+        height: 304;
+        padding-top: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .copiar{
+        width: 279px;
+    }
+
+}
