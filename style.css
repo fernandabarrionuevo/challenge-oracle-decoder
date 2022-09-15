@@ -210,14 +210,14 @@ main{
 }
 
 
-@media only screen and (min-width: 1284px){
+/*@media only screen and (min-width: 1284px){
 
-    main{
-        width: 1284px;
+     body{
+        width: 1200px;
     }
 
     header{
-        width: 844px;
+        width: 70%;
         height: 88px;
         margin: 0;
     }
@@ -231,7 +231,7 @@ main{
     }
 
     main{
-        width: 1284px;
+        width: 70%;
         height: 700px;
         margin: 0 auto 0;
         display: grid;
@@ -239,7 +239,7 @@ main{
     }
 
     .container-izquierda{
-        width: 680px;
+        width: 70%;
         height: 784px;
         margin: 80px 80px 0 240px;
     }
@@ -300,6 +300,56 @@ main{
 
     .copiar{
         width: 279px;
+    } 
+}*/
+
+@media only screen and (min-width: 1284px){
+    header{
+        margin: 20px 0 0 64px
     }
 
+    main{
+        margin: 0 0 0 180px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-input-texto{
+        width: 680px;
+        margin-left: 0;
+        text-align: none;
+    }
+
+    .container-advertencia{
+        margin-left: 0;
+    }
+
+    .container-botones{
+        margin-left: 0;
+    }
+
+    .container-mensaje{
+        width: 400px;
+        margin-top: -100px;
+    }
+
+    .mensaje{
+        width: 336px;
+        height: 48px;
+        margin-bottom: 150px;
+    }
+
+    .container-muneco{
+        width: 336px;
+        height: 304;
+        padding-top: 150px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .copiar{
+        width: 279px;
+    } 
+
+    
 }
